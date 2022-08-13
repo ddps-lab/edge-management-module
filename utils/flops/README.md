@@ -14,7 +14,7 @@ ref. https://pytorch.org/hub/ultralytics_yolov5/
     python3 -m tflite_flops [model name]
 
 
-### summary table
+### Summary Table
 
 |MobileNet V1 (TF-FP32)|MobileNet V2 (TF-FP32)|Inception V3 (TF-FP32)|Yolo V5 </br> (TF-FP32)|Yolo V5 </br> (EdgeTPU-tflite-INT8)|Yolo V5 </br> (tflite-FP16)|Yolo V5 </br> (tflite-INT8)|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
