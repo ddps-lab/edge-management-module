@@ -18,4 +18,4 @@ ref. https://github.com/ultralytics/yolov5
 
 |MobileNet V1 (TF-FP32)|MobileNet V2 (TF-FP32)|Inception V3 (TF-FP32)|Yolo V5 </br> (TF-FP32)|Yolo V5 </br> (EdgeTPU-tflite-INT8)|Yolo V5 </br> (tflite-FP16)|Yolo V5 </br> (tflite-INT8)|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1.15(GFLOPS)|0.615(GFLOPS)|11.5(GFLOPS)|17.4(GFLOPS)|5.9(GFLOPS)|16.4(GFLOPS)|16.4(GFLOPS)|
+|1.15(GFLOPS)|0.615(GFLOPS)|11.5(GFLOPS)|16.5(GFLOPS)|5.9(GFLOPS)|16.4(GFLOPS)|16.4(GFLOPS)|
