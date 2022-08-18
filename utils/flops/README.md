@@ -5,7 +5,7 @@
 
 
 ### Yolo V5 model (Tensorflow-FP32)
-ref. https://pytorch.org/hub/ultralytics_yolov5/
+ref. https://github.com/ultralytics/yolov5
 
 
 
