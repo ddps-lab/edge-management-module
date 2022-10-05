@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: arm-daemonset
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      name: arm-daemonset
+  template:
+    metadata:
+      labels:
+        name: arm-daemonset
+    spec:
+      containers:
+      - name: arm-pod-container
+        image: kmubigdata/edge-inference
+        securityContext:
+          privileged: true
+        imagePullPolicy: Always      
+        command: ['sh', '-c', 'sleep 6000']
+      nodeSelector:
+        kubernetes.io/arch: arm64
